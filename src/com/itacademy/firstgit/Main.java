@@ -2,6 +2,7 @@ package com.itacademy.firstgit;
 
 import com.itacademy.firstgit.animals.Cat;
 import com.itacademy.firstgit.animals.Dog;
+import com.itacademy.firstgit.animals.Pig;
 
 public class Main {
 
@@ -14,7 +15,12 @@ public class Main {
 		sharik.setAge(4);
 		sharik.setName("Sharik");
 		
-		System.out.println("Cats name is " + vaska.getName());
-		System.out.println("Dogs name is " + sharik.getName());
+		Pig borka = new Pig();
+		borka.setAge(4);
+		borka.setName("Borka");
+		
+		System.out.println("Cat's name is " + vaska.getName());
+		System.out.println("Dog's name is " + sharik.getName());
+		System.out.println("Pig's name is " + borka.getName());
 	}
 }
